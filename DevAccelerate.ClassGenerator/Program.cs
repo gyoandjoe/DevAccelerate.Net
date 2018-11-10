@@ -6,7 +6,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using DevAccelerate.Net;
 
 namespace DevAccelerate.ClassGenerator
 {
@@ -16,6 +16,11 @@ namespace DevAccelerate.ClassGenerator
 
         public static void Main(string[] args)
         {
+
+            ReplaceNameInFiles.Replace(@"C:\Projects\Workspaces\PEP.ACTIVOSINFORMACION.SIMAN\SIMAN.Solution\MSSQL\StoreProcedures", "SM", "SI");
+
+
+
             string TableFullName = args.ElementAt(0); //"[GradoContable].[dbo].[CFDI_Comprobante]"; // 
             string OutClassFullPath = args.ElementAt(1);  //@"e:\";//
             string className = args.ElementAt(2);  //"Caballo";
