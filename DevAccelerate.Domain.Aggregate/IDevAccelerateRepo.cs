@@ -7,5 +7,6 @@ namespace DevAccelerate.Domain
     public interface IDevAccelerateRepo
     {
         Aggregate ReadFromJson(byte[] jsonBytes);
+        
     }
 }
