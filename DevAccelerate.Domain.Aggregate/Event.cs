@@ -9,5 +9,7 @@ namespace DevAccelerate.Domain
         public string EventName { get; set; }
 
         public string TriggerActionName { get; set; }
+
+        public string PayloadType { get; set; }
     }
 }
