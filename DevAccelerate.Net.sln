@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevAccelerate.Net", "DevAccelerate.Net\DevAccelerate.Net.csproj", "{3E2BCB57-DA81-4FE6-A954-58F4EC004770}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevAccelerate.ClassGenerator", "DevAccelerate.ClassGenerator\DevAccelerate.ClassGenerator.csproj", "{CC1BC426-B473-49CD-B686-8418CFC0C8A4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevAccelerate.TemplateBuilder", "DevAccelerate.TemplateBuilder\DevAccelerate.TemplateBuilder.csproj", "{E868C331-466B-4D92-8528-70A19A1AFC28}"
@@ -13,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudTestSP", "CrudTestSP\Cr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{0DB1BBBC-BE67-458F-A842-59BB3B5143E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevAccelerate.Domain", "DevAccelerate.Domain.Aggregate\DevAccelerate.Domain.csproj", "{C504D15E-07BB-425C-8022-68E0D2B7E3C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevAccelerate.Domain", "DevAccelerate.Domain.Aggregate\DevAccelerate.Domain.csproj", "{C504D15E-07BB-425C-8022-68E0D2B7E3C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3E2BCB57-DA81-4FE6-A954-58F4EC004770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3E2BCB57-DA81-4FE6-A954-58F4EC004770}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3E2BCB57-DA81-4FE6-A954-58F4EC004770}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3E2BCB57-DA81-4FE6-A954-58F4EC004770}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CC1BC426-B473-49CD-B686-8418CFC0C8A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CC1BC426-B473-49CD-B686-8418CFC0C8A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC1BC426-B473-49CD-B686-8418CFC0C8A4}.Release|Any CPU.ActiveCfg = Release|Any CPU

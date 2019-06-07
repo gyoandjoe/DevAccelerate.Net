@@ -63,8 +63,7 @@ ORDER BY column_id").ToList();
 
                 fieldfulltext = @"public " + typeName + @" " + propName + @" { get; set; }";
                 sb.AppendLine("");
-                sb.AppendLine(fieldfulltext);
-                
+                sb.AppendLine(fieldfulltext);                
             }
             sb.AppendLine(string.Empty);
             sb.AppendLine("}");
