@@ -11,6 +11,6 @@ namespace DevAccelerate.Domain
         public IEnumerable<Entity> Entities { get; set; }
         public IEnumerable<Action> Actions { get; set; }
         public IEnumerable<Event> Events { get; set; }
-        public IEnumerable<EventReceiver> EventsReceiver { get; set; }
+        public IEnumerable<Subscriber> Subscribers { get; set; }
     }
 }

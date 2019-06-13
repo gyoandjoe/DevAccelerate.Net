@@ -17,10 +17,7 @@ namespace DevAccelerate.ClassGenerator
         public static void Main(string[] args)
         {
 
-            ReplaceNameInFiles.Replace(@"C:\Projects\Workspaces\PEP.ACTIVOSINFORMACION.SIMAN\SIMAN.Solution\MSSQL\StoreProcedures", "SM", "SI");
-
-
-
+            ReplaceNameInFiles.Replace(@"C:\Projects\Workspaces\PEP.ACTIVOSINFORMACION.SIMAN\SIMAN.Solution\MSSQL\StoreProcedures", "SM", "SI");            
             string TableFullName = args.ElementAt(0); //"[GradoContable].[dbo].[CFDI_Comprobante]"; // 
             string OutClassFullPath = args.ElementAt(1);  //@"e:\";//
             string className = args.ElementAt(2);  //"Caballo";
@@ -58,7 +55,7 @@ ORDER BY column_id").ToList();
                         break;
                     case "int":
                         typeName = "int";
-                        break;                        
+                        break;
                 }
 
                 fieldfulltext = @"public " + typeName + @" " + propName + @" { get; set; }";
