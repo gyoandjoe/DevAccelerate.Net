@@ -68,7 +68,6 @@ ORDER BY column_id").ToList();
             var f = File.CreateText(Path.Combine(OutClassFullPath, className + ".cs"));
             f.Write(sb);
             f.Close();
-
         }
     }
 
