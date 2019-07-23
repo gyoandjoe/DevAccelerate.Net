@@ -4,10 +4,7 @@ using System.Text;
 
 namespace DevAccelerate.Repo
 {
-    public class Property
+    public class RepoPlainProfileMapper
     {
-        public string Name { get; set; }
-
-        public string BDType { get; set; }
     }
 }

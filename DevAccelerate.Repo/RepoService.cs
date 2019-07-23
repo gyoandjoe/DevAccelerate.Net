@@ -4,16 +4,16 @@ using System.Text;
 
 namespace DevAccelerate.Repo
 {
-    public class DevAccelerateService
+    public class RepoService
     {
         private readonly IDevAccelerateRepo _repo;
 
-        public DevAccelerateService(IDevAccelerateRepo repo)
+        public RepoService(IDevAccelerateRepo repo)
         {
             _repo = repo;
         }
 
-        public Repo GetRepoFromJson(Byte[] jsonByte)
+        public RepoAggregate GetRepoFromJson(Byte[] jsonByte)
         {
             return _repo.ReadFromJson(jsonByte);
         }

@@ -6,7 +6,7 @@ namespace DevAccelerate.Repo
 {
     public interface IDevAccelerateRepo
     {
-        Repo ReadFromJson(byte[] jsonBytes);
+        RepoAggregate ReadFromJson(byte[] jsonBytes);
 
     }
 }
