@@ -5,7 +5,7 @@ using System.Text;
 namespace DevAccelerate.Repo
 {
     public class RepoProperty
-    {
+    { 
         public string Name { get; set; }
 
         public string BDType { get; set; }

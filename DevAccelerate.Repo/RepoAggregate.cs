@@ -21,6 +21,8 @@ namespace DevAccelerate.Repo
 
         public List<string> DML { get; set; }
 
+        public string ConexionName { get; set; }
+
 
 
     }

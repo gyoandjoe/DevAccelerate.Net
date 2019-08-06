@@ -6,9 +6,9 @@ namespace DevAccelerate.Repo
 {
     public class RepoService
     {
-        private readonly IDevAccelerateRepo _repo;
+        private readonly IRepoDevAccelerateRepo _repo;
 
-        public RepoService(IDevAccelerateRepo repo)
+        public RepoService(IRepoDevAccelerateRepo repo)
         {
             _repo = repo;
         }
