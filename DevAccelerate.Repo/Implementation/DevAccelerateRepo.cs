@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DevAccelerate.Repo.Implementation
 {
-    public class DevAccelerateRepo : IRepoDevAccelerateRepo
+    public class DevAccelerateRepoRepo : IDevAccelerateRepoRepo
     {
         public RepoAggregate ReadFromJson(byte[] jsonBytes)
         {

@@ -6,9 +6,9 @@ namespace DevAccelerate.Domain
 {
     public class DevAccelerateService
     {
-        private readonly IDevAccelerateRepo _repo;
+        private readonly IDevAccelerateDomainRepo _repo;
 
-        public DevAccelerateService(IDevAccelerateRepo repo)
+        public DevAccelerateService(IDevAccelerateDomainRepo repo)
         {
             _repo = repo;
         }
